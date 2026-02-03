@@ -6,6 +6,14 @@ header {
   text-align: center;
   padding: 20px;
 }
+p { 
+  color: rgb(159, 32, 32);
+  margin: 30px;
+  border: 5px solid rgb(61, 35, 154);
+  padding: 20px;
+  font-size: 25px;
+}
+
 
 
 ul {
@@ -19,7 +27,7 @@ header h1{
    
 }
 h2{
-    color: rgb(31, 213, 34);
+    color: rgb(154, 80, 31);
 
 }
 title{
