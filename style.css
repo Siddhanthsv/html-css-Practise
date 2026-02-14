@@ -12,7 +12,21 @@ p {
   border: 5px solid rgb(61, 35, 154);
   padding: 20px;
   font-size: 25px;
+}  
+
+
+p {
+  width: 300px;
+  height: 10px;
+  background: rgb(16, 45, 55);
 }
+li {
+  display:inline-block;
+  padding: 10px;
+  background: #333;
+  color: white;
+}
+
 
 ul {
     text-align: left;
@@ -25,8 +39,16 @@ header h1{
     color: rgb(19, 69, 139);
    
 }
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
 h2{
-    color: rgb(154, 80, 31);
+    color: rgb(178, 83, 20);
 
 }
 title{
