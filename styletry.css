@@ -1,7 +1,12 @@
 .card {
   width: 250px;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 5px solid #121010;
   text-align: center;
   background-color: rgb(113, 25, 25);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
