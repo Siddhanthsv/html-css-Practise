@@ -3,10 +3,39 @@
   padding: 20px;
   border: 5px solid #121010;
   text-align: center;
-  background-color: rgb(113, 25, 25);
+  background-color: rgb(55, 73, 174);
 
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
+p{
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+}
+.card h2 {
+  margin: 8px 0 0;
+  font-size: 22px;
+}
+.card button {
+  margin-top: 12px;
+  padding: 10px 18px;
+  border: none;
+  background: #4e114f;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.card button:hover {
+  background: #1d8188;
+}
+.card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+body {
+  background: rgb(22, 34, 37);
