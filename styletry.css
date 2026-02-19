@@ -29,7 +29,7 @@ p{
   cursor: pointer;
 }
 .card button:hover {
-  background: #1d8188;
+  background: #4a5c5d;
 }
 .card img {
   width: 90px;
@@ -38,5 +38,17 @@ p{
   object-fit: cover;
 }
 body {
-  background: rgb(22, 34, 37);
+  background: rgb(23, 38, 43);
 }
+.card {
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
